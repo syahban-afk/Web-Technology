@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <a href="home.html" class="sidebar-header">
+                <div>
+                    <img src="images/logo.png" alt="" srcset="" width="40">
+                </div>
+            </a>
+            <ul class="sidebar-nav">
+                <li><a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+                <li><a href="#"><i class="fas fa-chart-bar"></i> Analytics</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                <li><a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <h2>Dashboard</h2>
+                <div class="user-wrapper">
+                    <img src="images/admin.png" alt="admin" width="40px" height="40px">
+                    <div>
+                        <h4>Syahban Syaputra</h4>
+                        <small>Admin</small>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Dashboard Content -->
+            <main>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Users</h3>
+                            <p>1500</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Sales</h3>
+                            <p>$25,000</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Orders</h3>
+                            <p>300</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="card-info">
+                            <h3>Feedbacks</h3>
+                            <p>120</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="recent-grid">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Recent Projects</h3>
+                            </div>
+
+                            <div class="card-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Project Name</th>
+                                            <th>Status</th>
+                                            <th>Due Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Website Redesign</td>
+                                            <td><span class="status completed">Completed</span></td>
+                                            <td>25 Aug 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>New Dashboard</td>
+                                            <td><span class="status in-progress">In Progress</span></td>
+                                            <td>10 Sep 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mobile App</td>
+                                            <td><span class="status pending">Pending</span></td>
+                                            <td>15 Sep 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Portofolio</td>
+                                            <td><span class="status pending">Pending</span></td>
+                                            <td>23 Oct 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Blog</td>
+                                            <td><span class="status pending">Pending</span></td>
+                                            <td>30 Oct 2024</td>
+                                        </tr>
+                                        <tr>
+                                            <td>lorem</td>
+                                            <td><span class="status pending">Pending</span></td>
+                                            <td>30 Oct 2025</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>New Customers</h3>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="customer">
+                                    <img src="images/admin.png" alt="Customer">
+                                    <div class="customer-info">
+                                        <h4>Jane Doe</h4>
+                                        <small>Joined 5 days ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="customer">
+                                    <img src="images/admin.png" alt="Customer">
+                                    <div class="customer-info">
+                                        <h4>John Smith</h4>
+                                        <small>Joined 8 days ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="customer">
+                                    <img src="images/admin.png" alt="Customer">
+                                    <div class="customer-info">
+                                        <h4>Sarah Johnson</h4>
+                                        <small>Joined 10 days ago</small>
+                                    </div>
+                                </div>
+
+                                <div class="customer">
+                                    <img src="images/admin.png" alt="Customer">
+                                    <div class="customer-info">
+                                        <h4>Michael Brown</h4>
+                                        <small>Joined 12 days ago</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
